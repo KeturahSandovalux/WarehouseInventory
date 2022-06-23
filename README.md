@@ -19,7 +19,7 @@ in a warehouse and need to keep track of their inventory.**
                  5. *The cost of the item at wholesale per item*
                  6. *The total value of all items in inventory (PricePerItem * Quanity = the total value) - this is calculated in the program without the users help*
      
-- User can change any of the attributes of the item, but not the item # becuase it defines the actual items lookup
+- User can change any of the attributes of the item, but not the item # because it defines the actual items lookup
 - User can delete an item using the item # to delete an entire record
 - User can see a list of all the items added to the inventory with all current changes
 - User can also choose to quit the program/ exit the console application
@@ -27,7 +27,7 @@ in a warehouse and need to keep track of their inventory.**
 ## How It Works (Code Explanation)
 
 ### Start of Program Breakdown
-1. A structure called ItemData is added to create all data typesvthat will be used to make a record.
+1. A structure called ItemData is added to create all data types that will be used to make a record.
 2. The program then defines a variable to keep track of the number of items in the array.
 3. The array is created and initialized with a total of 30 index spaces (or 30 - 1 as the array starts at 0)
 4. A for loop is then added to cycle through the array as long as the number of items (30) isn't maxed out as the array cannot hold more than what was initialize or it will need to be copied to new array.
